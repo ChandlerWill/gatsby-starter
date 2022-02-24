@@ -6,5 +6,11 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
+
+  siteMetadata: {
+    siteUrl: 'http://chandlergallimore.com/'
+  },
+  plugins: [
+    'gatsby-plugin-cname'
+  ],
 }
